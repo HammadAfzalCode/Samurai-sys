@@ -7,18 +7,16 @@ import Solutions from "./components/SolutionsScroll";
 import MainFooter from "./components/MainFooter";
 import SolutionsSecondComp from "./components/SolutionsSecondComp";
 
-
-
 export default function Home() {
 
   return (
     <>
       <Hero />
-      <HeroSecond />
+      {/* <HeroSecond />
       <Solutions />
       <SolutionsSecondComp/>
       <Client />
-      <MainFooter />
+      <MainFooter /> */}
     </>
   );
 }
